@@ -10,6 +10,7 @@
     text-decoration: none;
     font-family: sans-serif;
     color: black;
+    
 }
 :root {
     --primarycolor:#da9f5b;
@@ -22,6 +23,18 @@ header {
     position: absolute;
     z-index: 200;
     width: 100%;
+}
+.about {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about img {
+    
+    height: 500px;
+  
 }
 header h1 {
     text-transform: uppercase;
@@ -109,7 +122,6 @@ header h1 {
 #serve::after{
     content: '';
     position: absolute;
-    border: 2px solid blue;
     top: 0;
     left: 0;
     right: 0;
@@ -120,7 +132,6 @@ header h1 {
 #serv::after{
     content: '';
     position: absolute;
-    border: 2px solid blue;
     top: 0;
     left: 0;
     right: 0;
@@ -200,9 +211,6 @@ header h1 {
     display: flex;
     gap: 0px;
     padding: 50px 60px;
-}
-.sect2 img{
-    height: 500px;
 }
 .sect2 h4 {
     font-size: 2.5rem;
@@ -734,12 +742,12 @@ footer h1 {
     }
     .Eos {
         color: var(--color) !important;
-        font-size: 2rem !important;
-        line-height:2rem !important;
+        font-size: 1.4rem !important;
+        line-height:1.3rem !important;
     }
     .sect2 p{
-        font-size: 1.9rem;
-        line-height: 2rem;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
     }
     .tea {
         flex-wrap: wrap;
@@ -902,5 +910,11 @@ footer h1 {
     }
     .open p {
         padding-bottom: 20px;
+    }
+    .about img {
+        max-width: 100%;
+        height: 300px;
+        
+      
     }
 }
