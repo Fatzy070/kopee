@@ -343,7 +343,6 @@ header h1 {
 .sunday {
     justify-content: center;
     background-color:rgba(49, 40, 40 , 0.8);
-    height: ;
     padding: 100px 0px;
     width: 100%;
     display: flex;
@@ -789,8 +788,8 @@ footer h1 {
     }
     .been {
         position: absolute;
-        left: 25%;
-        top: 25%;
+        left: 15%;
+        top: 20%;
         z-index: 100;
     }
     .sect4 {
@@ -871,12 +870,14 @@ footer h1 {
     .sect6 {
         flex-wrap: wrap;
         margin: 20px;    
+        margin-top: 6rem;
     }
     .off {
         width: 100%;
     }
     .book {
         width: 100%;
+        padding: 20px;
     }
     .amet {
         line-height: 2rem;
