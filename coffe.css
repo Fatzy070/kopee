@@ -440,7 +440,6 @@ header h1 {
 }
 .sect6 {
     display: flex;
-    border: 2px solid blue;
     margin: 80px;
     background-image: url(images/bg.jpeg);
     background-position: cover;
@@ -781,7 +780,6 @@ footer h1 {
     .truck h2 {
         font-weight: 600;
         font-size: 1.5rem;
-       
     }
     .owl-prev {
         left: 10px;
@@ -797,9 +795,6 @@ footer h1 {
     }
     .sect4 {
         margin-top: 15rem;
-    }
-    .sect4 {
-        
     }
     .sunday {
         justify-content: center;
@@ -855,7 +850,7 @@ footer h1 {
         font-weight: 500;
     }
     .black p {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: rgb(110, 109, 109);
         padding-top: 10px;
     }
@@ -867,7 +862,7 @@ footer h1 {
         display: flex;
         flex-wrap: wrap;
         gap: 40px;
-        margin: 30px;
+        margin: 15px;
     }
     .dols {
         height: 100px;
@@ -875,7 +870,7 @@ footer h1 {
     }
     .sect6 {
         flex-wrap: wrap;
-        margin: 40px;    
+        margin: 20px;    
     }
     .off {
         width: 100%;
