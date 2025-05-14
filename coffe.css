@@ -12,6 +12,9 @@
     color: black;
     
 }
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --primarycolor:#da9f5b;
     --color: rgba(51,33,29,255);
@@ -141,7 +144,7 @@ header h1 {
 }
 .been {
     position: absolute;
-    left: 35%;
+    left: 30%;
     top: 35%;
     z-index: 100;
 }
@@ -781,10 +784,10 @@ footer h1 {
         font-size: 1.5rem;
     }
     .owl-prev {
-        left: 10px;
+        left: -100px;
     }
     .owl-next {
-        right: 10px;
+        right: -100px;
     }
     .been {
         position: absolute;

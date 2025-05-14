@@ -4,7 +4,7 @@ function bar() {
 }
 
 function drops(event) {
-    event.preventDefault(); // stop <a href=""> from refreshing page
+    event.preventDefault(); 
     let display = document.getElementById('second-ul');
     display.classList.toggle('display');
 }
@@ -56,7 +56,6 @@ $(document).ready(function () {
 
 
 
-  // Show button when user scrolls down 200px
   window.onscroll = function () {
     const scrollBtn = document.getElementById("scrollToTop");
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
@@ -66,7 +65,6 @@ $(document).ready(function () {
     }
   };
 
-  // Scroll to top when arrow is clicked
   document.getElementById("scrollToTop").addEventListener("click", function (e) {
     e.preventDefault();
     window.scrollTo({
